@@ -750,7 +750,7 @@ function pageLinks() {
 
 // This is very ugly
 function blank_page() {
-  var selectors = ['#graph','#graphheader','#feedlinks','#logs','.pagelinks',
+  var selectors = ['#graph','#graphheader','#logs','.pagelinks',
     '#fields','#analyze']
 
   for (var selector in selectors) {
